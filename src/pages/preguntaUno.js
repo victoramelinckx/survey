@@ -10,9 +10,9 @@ const PreguntaUno = () => {
 
   const handleClick = (dataName, areaText) => {
     if (dataName === 'otras') {
-      router.push(`/preguntaDosVersion?areaText=${encodeURIComponent(areaText)}`);
+      router.replace(`/preguntaDosVersion?areaText=${encodeURIComponent(areaText)}`);
     } else {
-      router.push(`/preguntaDos?data=${dataName}&areaText=${encodeURIComponent(areaText)}`);
+      router.replace(`/preguntaDos?data=${dataName}&areaText=${encodeURIComponent(areaText)}`);
     }
   };
 

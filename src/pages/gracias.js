@@ -37,6 +37,9 @@ const Gracias = () => {
 
           if (response.ok) {
             console.log('Email enviado correctamente');
+            setTimeout(() => {
+              router.push('/graciasFinal');
+            }, 1000);
           } else {
             console.error('Error al enviar el correo electrónico');
           }
@@ -47,7 +50,7 @@ const Gracias = () => {
 
       sendEmail();
     }
-  }, [emailSubmitted]);
+  }, [emailSubmitted, router]);
 
   return (
     <>
