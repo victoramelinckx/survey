@@ -50,14 +50,14 @@ const GetInTouch = ({ onSubmitEmail }) => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="py-4 px-6 bg-dark/10 dark:bg-light/10 rounded-[32px] text-dark dark:text-light flex-grow"
+              className="py-4 px-6 bg-light/10 rounded-[32px] text-light flex-grow"
               placeholder="Email"
               required
             />
     
             <div className="flex max-w-sm md:w-auto mt-5 md:mt-0">
-              <button type="button" onClick={handleSubmit} className="flex items-center w-full h-fit py-4 px-4 bg-dark/10 dark:bg-light/10 border border-solid dark:border-light hover:scale-105 rounded-[32px] gap-[12px]">
-                <span className="font-bold text-[16px] text-dark dark:text-light">
+              <button type="button" onClick={handleSubmit} className="flex items-center w-full h-fit py-4 px-4 bg-light/10 border border-solidborder-light hover:scale-105 rounded-[32px] gap-[12px]">
+                <span className="font-bold text-[16px] text-light">
                   Enviar
                 </span>
               </button>
