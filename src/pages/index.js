@@ -9,7 +9,7 @@ export default function LandingTwo() {
   return (
     <>
       <Head>
-        <title>Encuesta</title>
+        <title>Survey</title>
         <meta
           name="landing"
           content="Explore CodeBucks's Next.js developer portfolio and 
@@ -27,14 +27,14 @@ export default function LandingTwo() {
               className="p-3 px-8 text-lg text-light/90 font-semibold mb-4 
               flex items-center justify-center"
             >
-              Descubre el principal obstáculo para el éxito y crecimiento de tu empresa
+              Discover the main obstacle to success and growth in your business
             </div>
 
               <div
                 className="p-3 px-8 text-lg text-light/90 font-normal mb-4 
-               flex items-center justify-center md:!text-base sm:!text-sm"
+               flex items-center justify-center md:!text-base sm:!text-sm-custom"
               >
-                ¿Eres dueño de una compañia o un alto ejecutivo? ¡Nos encantaría conocer tu opinión! Esta breve encuesta te ayudará a reflexionar sobre los principales desafíos que enfrenta tu negocio. Además, al completarla, recibirás un informe exclusivo con insights y estrategias para superar estos obstáculos. ¡Toma menos de 2 minutos!
+                Are you a business owner or a senior executive? We would love to hear your thoughts! This brief survey will help you reflect on the main challenges your business is facing. Additionally, given the time you will receive an exclusive report with insights and strategies to overcome these obstacles. It takes less than 2 minutes!
               </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function LandingTwo() {
             <div
               className="flex items-center h-fit py-3 px-4 text-lg md:!text-base sm:!text-sm text-light bg-dark/10 border border-solid border-light/90 hover:scale-105 rounded-[32px] gap-[12px]"
             >
-              Continuar
+              Next
             </div>
           </motion.div>
         </Link>

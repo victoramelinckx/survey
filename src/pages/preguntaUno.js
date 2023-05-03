@@ -9,7 +9,7 @@ const PreguntaUno = () => {
   const router = useRouter();
 
   const handleClick = (dataName, areaText) => {
-    if (dataName === 'otras') {
+    if (dataName === 'others') {
       router.replace(`/preguntaDosVersion?areaText=${encodeURIComponent(areaText)}`);
     } else {
       router.replace(`/preguntaDos?data=${dataName}&areaText=${encodeURIComponent(areaText)}`);
@@ -19,7 +19,7 @@ const PreguntaUno = () => {
   return (
     <>
       <Head>
-        <title>Primera Pregunta</title>
+        <title>Question</title>
         <meta name="landing si" content="Encuesta para Money Trip" />
       </Head>
       <TransitionEffect />
@@ -30,8 +30,7 @@ const PreguntaUno = () => {
               className="p-3 px-8 text-lg text-light/90 font-semibold mb-4 
                flex items-center justify-center"
             >
-              El principal obstáculo para el éxito y crecimiento de mi empresa se
-              encuentra en las áreas de:
+              The main obstacle to success and growth in my business lies in the area of:
             </div>
           </div>
         </div>
@@ -40,12 +39,12 @@ const PreguntaUno = () => {
           <div className={`mx-auto flex flex-col space-y-2`}>
           {
             [
-              { text: 'Ventas y marketing', id: 'ventas' },
-              { text: 'Finanzas y administración', id: 'financiera' },
-              { text: 'Producción y operaciones', id: 'produccion' },
-              { text: 'Recursos humanos y talento', id: 'humanos' },
-              { text: 'Informática y data', id: 'data' },
-              { text: 'Otras áreas no mencionadas', id: 'otras' },
+              { text: 'Sales and marketing', id: 'sales' },
+              { text: 'Finance and administration', id: 'finance' },
+              { text: 'Production and operations', id: 'production' },
+              { text: 'Human resources and talent', id: 'human' },
+              { text: 'IT (data)', id: 'data' },
+              { text: 'Other areas not mentioned', id: 'others' },
             ].map((area, index) => (
               <motion.div
                 key={index}
@@ -55,7 +54,7 @@ const PreguntaUno = () => {
                 onClick={() => handleClick(area.id, area.text)}
               >
                 <div
-                  className="flex items-center justify-center h-fit py-3 px-4 text-lg md:!text-sm sm:!text-sm text-light bg-dark/10 border border-solid border-light/90 hover:scale-105 rounded-[32px] gap-[12px]"
+                  className="flex items-center justify-center h-fit py-3 px-4 text-lg md:!text-sm sm:!text-sm-custom text-light bg-dark/10 border border-solid border-light/90 hover:scale-105 rounded-[32px] gap-[12px]"
                 >
                   {area.text}
                 </div>

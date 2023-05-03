@@ -13,40 +13,40 @@ const PreguntaDos = () => {
   const areaText = router.query.areaText;
 
   const options = {
-    ventas: [
-      'Generación de tráfico de clientes potenciales',
-      'Conversión de clientes potenciales en ventas efectivas',
-      'Retención de clientes existentes',
-      'Fidelización de clientes a largo plazo',
-      'Otros aspectos relacionados con las ventas y el marketing',
+    sales: [
+      'Generating potential customer traffic',
+      'Converting potential customers into actual sales',
+      'Retention of existing customers',
+      'Long-term customer loyalty',
+      'Other aspects related to sales and marketing',
     ],
-    financiera: [
-      'Control y reducción de costos operativos',
-      'Mejora en la gestión de flujos de efectivo y cuentas por pagar',
-      'Generación de reportes financieros y de desempeño en tiempo y forma',
-      'Establecimiento de presupuestos y metas financieras claras',
-      'Otros aspectos relacionados con la gestión financiera y administrativa',
+    finance: [
+      'Control and reduction of operational costs',
+      'Improvement in cash flow management and accounts payable',
+      'Timely financial and performance reporting',
+      'Establishment of clear financial budgets and goals',
+      'Other aspects related to financial and administrative management',
     ],
-    produccion: [
-      'Optimización de procesos de producción y de la cadena de suministro',
-      'Control de calidad de productos y servicios ofrecidos',
-      'Reducción de tiempos de entrega y/o producción',
-      'Gestión de inventarios y control de costos de producción',
-      'Otros aspectos relacionados con la producción y operaciones',
+    production: [
+      'Optimization of production processes and supply chain',
+      'Quality control of products and services offered',
+      'Reduction of delivery and/or production times',
+      'Inventory management and control of production costs',
+      'Other aspects related to production and operations',
     ],
-    humanos: [
-      'Selección y retención del personal adecuado',
-      'Desarrollo de habilidades y competencias en el personal existente',
-      'Mejora en la gestión del clima laboral y de la motivación del personal',
-      'Implementar políticas y programas de capacitación y desarrollo',
-      'Otros aspectos relacionados con la gestión del talento y los recursos humanos',
+    human: [
+      'Selection and retention of appropriate personnel',
+      'Development of skills and competencies in existing personnel',
+      'Improvement in the management of the work environment and employee motivation',
+      'Implementation of training and development policies and programs for personnel',
+      'Other aspects related to talent and human resources management',
     ],
     data: [
-      'Integración de sistemas informáticos y análisis de datos',
-      'Seguridad de la información y prevención de riesgos informáticos',
-      'Acceso y disponibilidad de la información en tiempo y forma',
-      'Mejora en la calidad de los datos y su gestión',
-      'Otros aspectos relacionados con la gestión de datos e informática',
+      'Integration of computer systems and data analysis',
+      'Information security and prevention of IT risks',
+      'Access and availability of information in a timely manner',
+      'Improvement in data quality and management',
+      'Other aspects related to data and IT management',
     ],
   };
 
@@ -66,7 +66,7 @@ const PreguntaDos = () => {
             whileTap={{ scale: 0.95 }}
             className="cursor-pointer"
           >
-            <div className="flex items-center justify-center h-fit py-3 px-4 text-lg md:!text-sm sm:!text-sm text-light bg-dark/10 border border-solid border-light/90 hover:scale-105 rounded-[32px] gap-[12px]">
+            <div className="flex items-center justify-center h-fit py-3 px-4 text-lg md:!text-sm sm:!text-sm-custom text-light bg-dark/10 border border-solid border-light/90 hover:scale-105 rounded-[32px] gap-[12px]">
               {option}
             </div>
           </motion.div>
@@ -78,7 +78,7 @@ const PreguntaDos = () => {
   return (
     <>
       <Head>
-        <title>Segunda Pregunta</title>
+        <title>Question</title>
         <meta name="landing si" content="Encuesta para Money Trip" />
       </Head>
       <TransitionEffect />
@@ -87,7 +87,7 @@ const PreguntaDos = () => {
           <TypingText title={`| ${areaText}`} textStyles="text-center text-xs text-light/40" />
           <div className="text-center">
             <div className="p-3 px-8 text-lg text-light/90 font-semibold mb-4 flex items-center justify-center">
-              Dentro de las áreas de {areaText}, el PRINCIPAL obstáculo es:{' '}
+              Within the {areaText}, the MAIN obstacle is:{' '}
             </div>
           </div>
         </div>

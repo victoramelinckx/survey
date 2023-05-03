@@ -58,7 +58,7 @@ const PreguntaCinco = () => {
   return (
     <>
       <Head>
-        <title>Ultima Pregunta</title>
+        <title>Last Question</title>
         <meta
           name="landing si"
           content="Encuesta para Money Trip"
@@ -73,7 +73,7 @@ const PreguntaCinco = () => {
                 className="p-3 px-8 text-lg text-light/90 font-semibold mb-4 
                flex items-center justify-center"
               >
-            ¿Cuáles son las principales razones por las que no has implementado las soluciones identificadas? </div>
+            What are the main reasons you have not implemented the identified solutions? </div>
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const PreguntaCinco = () => {
                 value={inputValue}
                 onChange={handleInputChange}
                 className="py-4 px-6 bg-light/10 rounded-[32px] text-light flex-grow"
-                placeholder="Breve descripción"
+                placeholder="Explain"
                 rows={5}
                 required
               />
@@ -94,7 +94,7 @@ const PreguntaCinco = () => {
                 value={rubroValue} // Update this line
                 onChange={handleRubroChange} // Update this line
                 className="py-4 px-6 bg-light/10 rounded-[32px] text-light flex-grow"
-                placeholder="Rubro de tu empresa"
+                placeholder="Business sector"
                 rows={1}
                 required
               />
@@ -104,7 +104,7 @@ const PreguntaCinco = () => {
                   type="submit"
                   className="flex items-center h-fit py-3 px-4 bg-dark/10 border border-solid border-light/90 hover:scale-105 rounded-[32px] gap-[12px]"
                 >
-                  <span className="font-bold text-[16px] text-light">Enviar</span>
+                  <span className="font-bold text-[16px] text-light">Send</span>
                 </button>
               </div>
             </form>

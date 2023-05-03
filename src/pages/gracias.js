@@ -55,7 +55,7 @@ const Gracias = () => {
   return (
     <>
       <Head>
-        <title>Gracias</title>
+        <title>Thanks</title>
         <meta
           name="landing si"
           content="Encuesta para Money Trip"
@@ -69,15 +69,14 @@ const Gracias = () => {
               className="p-3 px-8 text-2xl text-light/90 font-semibold 
               flex items-center justify-center"
             >
-              ¡Gracias por compartir tu experiencia!
+              Thank you for completing our survey!
             </div>
 
             <div
               className="p-3 px-8 text-lg text-light/90 font-normal mb-4 
-              flex items-center justify-center md:!text-base sm:!text-sm"
+              flex items-center justify-center md:!text-base sm:!text-sm-custom"
             >
-              No olvides enviar el enlace a colegas y amigos empresarios. Muy pronto recibirás un informe exclusivo con estrategias e insights para impulsar tu éxito empresarial. 
-            </div>
+              Don't forget to share the link with your colleagues and fellow business owners. Once the survey period is over, you will receive a report with valuable information to overcome these challenges. Leave us your email to send it to you.            </div>
             <GetInTouch onSubmitEmail={handleEmailSubmitted} />
           </div>
         </div>

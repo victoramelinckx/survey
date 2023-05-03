@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         mont: ['var(--font-mont)', ...fontFamily.sans],
       },
+      fontSize: {
+        'sm-custom': '0.915rem', // You can adjust the value as needed
+      },
       backgroundColor: ['hover'],
       textColor: ['hover'],
       colors:{

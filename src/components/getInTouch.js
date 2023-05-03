@@ -58,7 +58,7 @@ const GetInTouch = ({ onSubmitEmail }) => {
             <div className="flex max-w-sm md:w-auto mt-5 md:mt-0">
               <button type="button" onClick={handleSubmit} className="flex items-center w-full h-fit py-4 px-4 bg-light/10 border border-solidborder-light hover:scale-105 rounded-[32px] gap-[12px]">
                 <span className="font-bold text-[16px] text-light">
-                  Enviar
+                  Send
                 </span>
               </button>
             </div>

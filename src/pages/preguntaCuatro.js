@@ -30,7 +30,7 @@ const PreguntaCuatro = () => {
   return (
     <>
       <Head>
-        <title>Cuarta Pregunta</title>
+        <title>Question</title>
         <meta
           name="landing si"
           content="Encuesta para Money Trip"
@@ -45,7 +45,7 @@ const PreguntaCuatro = () => {
               className="p-3 px-8 text-lg text-light/90 font-semibold mb-4 
               flex items-center justify-center"
             >
-            ¿Qué soluciones has considerado para enfrentar este desafío?
+            What solutions have you considered to face this challenge? 
             </div>
           </div>
         </div>

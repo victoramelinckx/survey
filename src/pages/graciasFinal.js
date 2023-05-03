@@ -13,7 +13,7 @@ const GraciasFinal = () => {
   return (
     <>
       <Head>
-        <title>Gracias</title>
+        <title>Thanks</title>
         <meta
           name="landing si"
           content="Encuesta para Money Trip"
@@ -27,7 +27,7 @@ const GraciasFinal = () => {
               className="p-3 px-8 text-4xl text-light/90 font-semibold 
               flex items-center justify-center"
             >
-              ¡Gracias!
+              Thank you!
             </div>
         </div>
       </div>
