@@ -56,7 +56,7 @@ const PreguntaDosVersion = () => {
                 value={inputValue}
                 onChange={handleInputChange}
                 className="py-4 px-6 bg-light/10 rounded-[32px] text-light flex-grow"
-                placeholder="Breve descripción"
+                placeholder="Explain"
                 rows={5}
                 required
               />
