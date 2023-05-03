@@ -30,7 +30,7 @@ const PreguntaDosVersion = () => {
   return (
     <>
       <Head>
-        <title>Tercera Pregunta</title>
+        <title>Question</title>
         <meta name="landing si" content="Encuesta para Money Trip" />
       </Head>
       <TransitionEffect />
@@ -41,7 +41,7 @@ const PreguntaDosVersion = () => {
               className="p-3 px-8 text-lg text-light/90 font-semibold mb-4 
                flex items-center justify-center"
             >
-              ¿Qué área no mencionada limita el éxito y crecimiento de tu empresa?
+              How is this problem affecting the success and growth of your business?
             </div>
           </div>
         </div>
