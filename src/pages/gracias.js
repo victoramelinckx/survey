@@ -76,7 +76,7 @@ const Gracias = () => {
               className="p-3 px-8 text-lg text-light/90 font-normal mb-4 
               flex items-center justify-center md:!text-base sm:!text-sm-custom"
             >
-              Don&apos;t forget to share the link with your colleagues and fellow business owners. Once the survey period is over, you will receive a report with valuable information to overcome these challenges. Leave us your email to send it to you.
+              Don&apos;t forget to share the link with your colleagues and fellow business owners. Once the survey period is over, you will receive a report with valuable information about these challenges. Leave us your email to send it to you.
             </div>
             <GetInTouch onSubmitEmail={handleEmailSubmitted} />
 

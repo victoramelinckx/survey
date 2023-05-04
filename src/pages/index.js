@@ -34,7 +34,7 @@ export default function LandingTwo() {
                 className="p-3 px-8 text-lg text-light/90 font-normal mb-4 
                flex items-center justify-center md:!text-base sm:!text-sm-custom"
               >
-                Are you a business owner or a senior executive? We would love to hear your thoughts! This brief survey will help you reflect on the main challenges your business is facing. Additionally, given the time you will receive an exclusive report with insights and strategies to overcome these obstacles. It takes less than 2 minutes!
+                Are you a business owner or a senior executive? We would love to hear your thoughts! This brief survey will help you reflect on the main challenges your business is facing. Additionally, given the time you will receive an exclusive report with insights these obstacles. It takes less than 2 minutes!
               </div>
           </div>
         </div>
